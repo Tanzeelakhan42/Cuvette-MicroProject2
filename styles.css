@@ -6,7 +6,7 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 .main-container {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 100%;
 }
 .navbar-container {
@@ -15,20 +15,26 @@ body {
   display: flex;
 }
 .content-container {
-  background-color: green;
+  /* background-color: green; */
   height: 90%;
 }
 .content-box-1 {
-  background-color: olivedrab;
+  /* background-color: olivedrab; */
   height: 40%;
+  display: flex;
 }
 .content-box-2 {
-  background-color: violet;
+  /* background-color: violet; */
   height: 20%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px;
 }
 .content-box-3 {
-  background-color: yellow;
+  background-color: #483eff;
   height: 40%;
+  display: flex;
 }
 .website-name-box {
   /* background-color: peachpuff; */
@@ -68,4 +74,71 @@ body {
   border: none;
   outline: none;
   padding: 0px 10px;
+}
+.card-1 {
+  background-color: #e5d8ff;
+  display: flex;
+  margin: 30px;
+  border-radius: 30px;
+}
+.total-questions-card {
+  background-color: #929dff;
+  color: white;
+  width: 20%;
+  height: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.total-answers-card {
+  background-color: #734cf2;
+  color: white;
+  width: 20%;
+  height: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.participated-card {
+  background-color: #d288ff;
+  color: white;
+  width: 20%;
+  height: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.total-passed-card {
+  background-color: #000000;
+  width: 20%;
+  height: 60%;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.your-info-menu-box {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.your-info-card {
+  background-color: #bce0f6;
+  height: 30%;
+}
+.bookmarks-card {
+  background-color: #483eff;
+  height: 30%;
+}
+.settings-card {
+  background-color: #483eff;
+  height: 30%;
+}
+.student-details-card {
+  background-color: white;
+  display: flex;
+  padding: 30px;
+}
+.card-content-title {
+  margin: 0px 0px 10px 0px;
+}
+.card-content-value {
+  margin: 0px;
 }
