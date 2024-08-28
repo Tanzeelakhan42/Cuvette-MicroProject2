@@ -7,34 +7,43 @@ body {
 }
 .main-container {
   /* background-color: aqua; */
-  height: 100%;
 }
 .navbar-container {
   background-color: #6f6af7;
   height: 10%;
   display: flex;
+  align-items: center;
+  padding: 0px 20px;
 }
 .content-container {
   /* background-color: green; */
-  height: 90%;
+  padding: 0px 0px 40px 0px;
 }
 .content-box-1 {
   /* background-color: olivedrab; */
-  height: 40%;
   display: flex;
+  padding: 50px 40px;
+  align-items: center;
+}
+.image-logo {
+  height: 270px;
 }
 .content-box-2 {
   /* background-color: violet; */
-  height: 20%;
+  /* height: 20%; */
   display: flex;
   gap: 10px;
   justify-content: space-around;
-  padding: 10px;
+  padding: 50px 40px;
+  margin: 0px 0px 50px 0px;
 }
 .content-box-3 {
   background-color: #483eff;
-  height: 40%;
+  /* height: 40%; */
   display: flex;
+  padding: 10px;
+  margin: 0px 40px;
+  border-radius: 10px;
 }
 .website-name-box {
   /* background-color: peachpuff; */
@@ -69,7 +78,7 @@ body {
   width: 40px;
 }
 .search-input {
-  height: 50%;
+  height: 32px;
   border-radius: 30px;
   border: none;
   outline: none;
@@ -78,8 +87,9 @@ body {
 .card-1 {
   background-color: #e5d8ff;
   display: flex;
-  margin: 30px;
   border-radius: 30px;
+  padding: 10px;
+  height: 223px;
 }
 .total-questions-card {
   background-color: #929dff;
@@ -114,26 +124,54 @@ body {
   border-radius: 10px;
 }
 .your-info-menu-box {
-  background-color: #ffffff;
+  width: 30%;
+  margin: 10px;
   display: flex;
+  flex-direction: column;
+  /* display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px; */
 }
 .your-info-card {
   background-color: #bce0f6;
-  height: 30%;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 30%; */
 }
 .bookmarks-card {
   background-color: #483eff;
-  height: 30%;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 30%; */
 }
 .settings-card {
   background-color: #483eff;
-  height: 30%;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 30%; */
 }
 .student-details-card {
   background-color: white;
-  display: flex;
+  color: #04285a;
+  width: 70%;
+  margin: 10px;
+  border-radius: 10px;
   padding: 30px;
 }
 .card-content-title {
@@ -141,4 +179,39 @@ body {
 }
 .card-content-value {
   margin: 0px;
+}
+.your-information {
+  font-family: "Inter";
+}
+.detail-row {
+  font-family: "Roboto";
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.label {
+  font-size: 15px;
+}
+.value {
+  font-size: 12px;
+}
+.button-container {
+  display: flex;
+  justify-content: end;
+}
+.next-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+.arrow-logo {
+  width: 15px;
 }
