@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0%;
+  font-family: "DM Sans", sans-serif;
 }
 .main-container {
   background-color: aqua;
@@ -41,12 +42,30 @@ body {
   /* background-color: gray; */
   height: 100%;
   width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: 400;
 }
 .hamburger-icon-box {
   /* background-color: orange; */
   height: 100%;
   width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .dappr-logo {
   width: 100px;
+}
+.hamburger-logo {
+  width: 40px;
+}
+.search-input {
+  height: 50%;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
 }
