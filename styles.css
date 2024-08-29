@@ -17,6 +17,9 @@ body {
   position: sticky;
   top: 0px;
 }
+.main-container-2 {
+  display: flex;
+}
 .content-container {
   /* background-color: green; */
   padding: 0px 0px 40px 0px;
@@ -218,16 +221,25 @@ body {
 .arrow-logo {
   width: 15px;
 }
+.root {
+  navbar-height: 0px;
+}
+.social-icons-container {
+  position: relative;
+}
 .social-icons-box {
-  margin: 0px 0px 0px 30px;
+  display: flex;
+  flex-direction: column;
   position: sticky;
+  top: 70px;
+  margin-top: 130px;
 }
 .social-icons {
   width: 50px;
 }
 .chatbot-icon {
   position: fixed;
-  bottom: 0px;
-  right: 40px;
   height: 80px;
+  bottom: -13px;
+  right: 10%;
 }
